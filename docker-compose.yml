@@ -2,7 +2,7 @@ version: "3.3"
 
 services:
   httpserver:
-    image: httpd
+    image: registry.gitlab.com/muellerlionel/simi-docker:latest
     ports:
       - "80"
 
